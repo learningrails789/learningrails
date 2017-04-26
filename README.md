@@ -1,4 +1,4 @@
-# learning rails and pushing to git
+# learning rails and pushing toapp git
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
