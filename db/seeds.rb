@@ -45,3 +45,11 @@ puts "5 skills created"
     )
 }
 puts "9 portfolios were created"
+
+3.times { |x|
+    Portfolio.last.technologies.create!(
+        name: "Technology: #{x}",
+    )
+}
+
+puts "3 technologies were created"
