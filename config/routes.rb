@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
-  resources :portfolios, except: [:show]
+  resources :portfolios, except: [:show,:new]
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
+  get 'portfolios/new', to: 'portfolios#new', as: 'new_portfolio'
   
   root to: 'pages#home'
 
